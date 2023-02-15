@@ -1,0 +1,16 @@
+// setup
+@import 'setup/_variables.scss';
+@import 'setup/_mixins.scss';
+@import 'setup/_functions.scss';
+
+//basic
+@import 'basics/_layout.scss';
+@import 'basics/_base.scss';
+
+// cmps
+@import 'cmps/app-header.scss';
+@import 'cmps/app-footer.scss';
+@import 'cmps/contact-list.scss';
+
+@import 'cmps/user-msg.scss';
+@import 'cmps/home.scss';

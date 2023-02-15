@@ -1,0 +1,15 @@
+.contact-list {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+
+    .contact-preview {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 10px;
+
+        img {
+            width: 100%;
+        }
+    }
+}
